@@ -1,6 +1,6 @@
 package dk.easj.anbo.intentsnodata;
 
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
@@ -13,6 +13,7 @@ public class SecondActivity extends AppCompatActivity {
     }
 
     public void gotoThirdActivityClicked(View view) {
+
         ThirdActivity.start(this);
     }
 
